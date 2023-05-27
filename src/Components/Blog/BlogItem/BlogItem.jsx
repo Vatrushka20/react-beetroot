@@ -1,11 +1,15 @@
 import './BlogItem.scss';
+import {Card} from "react-bootstrap";
+
 function BlogItem(props) {
     return (
-        <div className='blog-item'>
-            <h3 className='title'>{props.title}</h3>
-            <p className='info'>{props.info}</p>
-        </div>
-    )
+        <Card className='mb-4' role="button">
+            <Card.Body>
+                <Card.Title>{props.title}</Card.Title>
+                <Card.Text>{props.body}</Card.Text>
+            </Card.Body>
+        </Card>
+    );
 }
 
 export default BlogItem;
