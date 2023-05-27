@@ -1,0 +1,20 @@
+.nav {
+  .list {
+    display: flex;
+    gap: 19px;
+    list-style: none;
+
+    .item {
+      cursor: pointer;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 8px;
+      background-color: #E7EFD6;
+
+      &:hover {
+        background-color: #BDCDF6;
+      }
+    }
+  }
+}

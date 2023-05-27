@@ -1,0 +1,13 @@
+.news {
+  background-color: #D9D9D9;
+  padding: 17px 28px 29px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: center;
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
