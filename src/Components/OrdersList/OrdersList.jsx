@@ -20,11 +20,7 @@ export const OrdersList = (props) => {
             {orderData.map(item => (
                 <OrdersItem
                 key={item.id}
-                img={item.img}
-                date={item.date}
-                name={item.name}
-                item={item.item}
-                amount={item.amount}
+                {...item}
                 />
             ))}
         </div>

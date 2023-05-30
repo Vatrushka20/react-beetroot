@@ -20,10 +20,8 @@ export const ReviewsList = (props) => {
         <div className={classes}>
             {reviewsData.map(item => (
                 <ReviewsItem
-                    star={item.star}
                     key={item.id}
-                    img={item.img}
-                    feedback={item.feedback}
+                    {...item}
                 />
             ))}
         </div>

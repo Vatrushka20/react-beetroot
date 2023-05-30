@@ -20,8 +20,7 @@ export const CustomersList = (props) => {
             {customersData.map(item => (
                 <CustomersItem
                     key={item.id}
-                    img={item.img}
-                    name={item.name}
+                    {...item}
                 />
             )
             )}

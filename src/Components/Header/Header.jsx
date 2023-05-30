@@ -15,6 +15,5 @@ export const Header = (props) => {
                 <img className='header__content__svg-user' src={userPic} alt='user-pic'/>
             </div>
         </header>
-
     )
 };
