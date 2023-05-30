@@ -1,0 +1,53 @@
+@import "src/styles/_variables";
+
+.header {
+  background-color: $header-bg;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+
+    &__title {
+      font-family: 'Indie Flower', sans-serif;
+      color: $base-white;
+    }
+
+    &__svg-user {
+      cursor: pointer;
+      width: 50px;
+
+      &:hover {
+        border-radius: 50%;
+        opacity: .5;
+      }
+    }
+
+    .hamburger {
+
+      .hamburger-box {
+        width: 40px;
+        height: 24px;
+
+        .hamburger-inner {
+          width: 40px;
+          height: 3px;
+          background-color: $base-white;
+
+          &:before {
+            width: 40px;
+            height: 3px;
+            background-color: $base-white;
+          }
+
+          &:after {
+            width: 40px;
+            height: 3px;
+            background-color: $base-white;
+          }
+        }
+      }
+    }
+  }
+}

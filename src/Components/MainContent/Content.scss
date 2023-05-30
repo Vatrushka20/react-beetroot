@@ -1,0 +1,29 @@
+.content {
+
+  &__list {
+    display: flex;
+    gap: 10px;
+
+    &__left-content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 490px;
+    }
+
+    &__right-content {
+      display: flex;
+      gap: 10px;
+
+      .reviewsList {
+        width: 240px;
+        height: max-content;
+      }
+
+      .customerList {
+        width: 240px;
+        height: max-content;
+      }
+    }
+  }
+}

@@ -1,1 +1,17 @@
+@import "styles/_hamburger.css";
+@import "styles/normalize";
+@import "styles/_variables";
+@import "styles/_mixins";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Indie+Flower&family=Josefin+Sans&family=Montserrat:wght@400;600&family=Varela+Round&display=swap');
 
+body {
+  background-color: #f1f4f5;
+  height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

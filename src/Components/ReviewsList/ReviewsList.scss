@@ -1,0 +1,8 @@
+@import "src/styles/_variables";
+
+.reviews-list {
+  background-color: $base-white;
+  margin-top: 3px;
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+}

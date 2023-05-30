@@ -1,0 +1,37 @@
+@import "src/styles/_variables";
+
+.nav {
+  width: 170px;
+  padding-top: 20px;
+
+
+  .list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .item {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: $text-color;
+      padding: 5px 10px;
+
+      &:hover {
+        background-color: rgba(152, 114, 132, .3);
+        border-radius: 10px;
+      }
+
+      .nav-svg {
+        width: 30px;
+        height: 35px;
+      }
+    }
+  }
+}
+

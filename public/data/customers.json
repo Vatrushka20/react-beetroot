@@ -1,0 +1,94 @@
+{
+  "customers": [
+    {
+      "id": 0,
+      "img": "https://img.freepik.com/free-photo/happy-woman-gray-polo-shirt-with-pink-pin-button_53876-102858.jpg?w=1380&t=st=1685385768~exp=1685386368~hmac=5a4b657c5785a3860184122c8deb781a65d4482d807ae2057afbd4bd1df182fe",
+      "name": "Mazie White"
+    },
+    {
+      "id": 1,
+      "img": "https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?w=2000&t=st=1685385806~exp=1685386406~hmac=863bb77ab454b6350964ff51a5a46e983d252362a8b66f0da0a2146b2f58d918",
+      "name": "Romaine Bartell"
+    },
+    {
+      "id": 2,
+      "img": "https://img.freepik.com/free-photo/portrait-beautiful-mature-blonde-bearded-guy-with-trendy-hairdo-casual-grey-shirt-smiling_176420-15741.jpg?w=2000&t=st=1685385783~exp=1685386383~hmac=dc0846c37729959ad8c80f2802a2cc995e5c0a8fab6c7d0a47042d157e7ffd3f",
+      "name": "Nils Cartwright"
+    },
+    {
+      "id": 3,
+      "img": "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000&t=st=1685385781~exp=1685386381~hmac=3e26a82aa398b77ff08d29541789114cf40a3137921ec85cd0e7617c6edffdd6",
+      "name": "Kacie Abbott"
+    },
+    {
+      "id": 4,
+      "img": "https://img.freepik.com/free-photo/portrait-smiley-woman_23-2148827181.jpg?w=2000&t=st=1685385787~exp=1685386387~hmac=4e0f732b40bdefcccfcd92bec4a2dd74d075e29c2d0200105c623e524446d31c",
+      "name": "Kaelyn D'Amore"
+    },
+    {
+      "id": 5,
+      "img": "https://img.freepik.com/free-photo/red-haired-woman-smiling_23-2147847015.jpg?w=2000&t=st=1685385810~exp=1685386410~hmac=c77c7dafdf4b8c9f387731a4c5692f8e672c63c8490632d759aea7bb41ebfae5",
+      "name": "Shyanne Fade"
+    },
+    {
+      "id": 6,
+      "img": "https://img.freepik.com/free-photo/portrait-positive-handsome-blond-man-with-beard-moustache-standing-with-crossed-hands-white-shirt-with-slight-smile-confident-expression_176420-17129.jpg?w=2000&t=st=1685385791~exp=1685386391~hmac=0df17503d082e8cf9251cf0b686df3b01632261911a867b17a8cb021aeadba5a",
+      "name": "Javonte Simonis"
+    },
+    {
+      "id": 7,
+      "img": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=1800&t=st=1685385737~exp=1685386337~hmac=6ab5dd7615d41498b1c83ab99438acb7fb516896e7ac10d1ebf5cbc7b27f080e",
+      "name": "Jon Okuneva"
+    },
+    {
+      "id": 8,
+      "img": "https://img.freepik.com/free-photo/beautiful-every-day-make-up-look_181624-21819.jpg?w=2000&t=st=1685385820~exp=1685386420~hmac=18171deac6c53de5ac37173a8f1951c191e5159616259f24b608c12c55c399df",
+      "name": "Shayne Osinski"
+    },
+    {
+      "id": 9,
+      "img": "https://img.freepik.com/free-photo/happy-woman-gray-polo-shirt-with-pink-pin-button_53876-102858.jpg?w=1380&t=st=1685385768~exp=1685386368~hmac=5a4b657c5785a3860184122c8deb781a65d4482d807ae2057afbd4bd1df182fe",
+      "name": "Mazie White"
+    },
+    {
+      "id": 10,
+      "img": "https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?w=2000&t=st=1685385806~exp=1685386406~hmac=863bb77ab454b6350964ff51a5a46e983d252362a8b66f0da0a2146b2f58d918",
+      "name": "Romaine Bartell"
+    },
+    {
+      "id": 11,
+      "img": "https://img.freepik.com/free-photo/portrait-beautiful-mature-blonde-bearded-guy-with-trendy-hairdo-casual-grey-shirt-smiling_176420-15741.jpg?w=2000&t=st=1685385783~exp=1685386383~hmac=dc0846c37729959ad8c80f2802a2cc995e5c0a8fab6c7d0a47042d157e7ffd3f",
+      "name": "Nils Cartwright"
+    },
+    {
+      "id": 12,
+      "img": "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000&t=st=1685385781~exp=1685386381~hmac=3e26a82aa398b77ff08d29541789114cf40a3137921ec85cd0e7617c6edffdd6",
+      "name": "Kacie Abbott"
+    },
+    {
+      "id": 13,
+      "img": "https://img.freepik.com/free-photo/portrait-smiley-woman_23-2148827181.jpg?w=2000&t=st=1685385787~exp=1685386387~hmac=4e0f732b40bdefcccfcd92bec4a2dd74d075e29c2d0200105c623e524446d31c",
+      "name": "Kaelyn D'Amore"
+    },
+    {
+      "id": 14,
+      "img": "https://img.freepik.com/free-photo/red-haired-woman-smiling_23-2147847015.jpg?w=2000&t=st=1685385810~exp=1685386410~hmac=c77c7dafdf4b8c9f387731a4c5692f8e672c63c8490632d759aea7bb41ebfae5",
+      "name": "Shyanne Fade"
+    },
+    {
+      "id": 15,
+      "img": "https://img.freepik.com/free-photo/portrait-positive-handsome-blond-man-with-beard-moustache-standing-with-crossed-hands-white-shirt-with-slight-smile-confident-expression_176420-17129.jpg?w=2000&t=st=1685385791~exp=1685386391~hmac=0df17503d082e8cf9251cf0b686df3b01632261911a867b17a8cb021aeadba5a",
+      "name": "Javonte Simonis"
+    },
+    {
+      "id": 16,
+      "img": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=1800&t=st=1685385737~exp=1685386337~hmac=6ab5dd7615d41498b1c83ab99438acb7fb516896e7ac10d1ebf5cbc7b27f080e",
+      "name": "Jon Okuneva"
+    },
+    {
+      "id": 17,
+      "img": "https://img.freepik.com/free-photo/beautiful-every-day-make-up-look_181624-21819.jpg?w=2000&t=st=1685385820~exp=1685386420~hmac=18171deac6c53de5ac37173a8f1951c191e5159616259f24b608c12c55c399df",
+      "name": "Shayne Osinski"
+    }
+  ]
+}
