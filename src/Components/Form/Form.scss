@@ -1,0 +1,191 @@
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-wrapper {
+  background-color: white;
+  padding: 57px 65px;
+  width: 680px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .15);
+  margin-top: 80px;
+  margin-bottom: 50px;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    &__title {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+      color: #525252;
+      margin-bottom: 40px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .row-space {
+      display: flex;
+      gap: 30px;
+
+      .gender {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+        &__content {
+          display: flex;
+          gap: 30px;
+
+          .real-radio {
+            width: 0;
+            height: 0;
+            position: absolute;
+            opacity: 0;
+            z-index: -1;
+
+            &:checked + .custom-radio::before {
+              display: inline-block;
+            }
+          }
+
+          .custom-radio {
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #e5e5e5;
+            box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, .08);
+            vertical-align: text-top;
+            margin-right: 8px;
+
+            &::before {
+              content: '';
+              width: 12px;
+              height: 12px;
+              background: url("../../assets/circle.png") no-repeat;
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+              display: none;
+            }
+
+            &:hover {
+              border: 1px solid rgba(0, 0, 0, .4);
+            }
+          }
+        }
+      }
+    }
+
+    .label {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #555;
+      gap: 5px;
+
+      &.gender-label {
+        flex-direction: row;
+        cursor: pointer;
+      }
+
+      .input {
+        width: 260px;
+        height: 50px;
+        background: #fafafa;
+        box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, .08);
+        border-radius: 5px;
+        padding: 0 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #666;
+        transition: all .4s ease;
+        outline: none;
+        margin: 0;
+        border: none;
+
+        &.date {
+          cursor: pointer;
+        }
+
+        &:hover {
+          box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, .4);
+
+        }
+
+        &:focus {
+          box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, .4);
+        }
+      }
+    }
+
+    .container {
+      position: relative;
+
+      .select-container {
+
+        &:after {
+          content: url("../../assets/arrow2.png");
+          position: absolute;
+          right: 5px;
+          top: 55%;
+          transform: translate(-55%);
+          pointer-events: none;
+        }
+
+        .custom-select {
+          .select {
+            cursor: pointer;
+            appearance: none;
+            width: 100%;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
+.button {
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  background: #4272d7;
+  border: 1px solid #4272d7;
+  border-radius: 5px;
+  line-height: 50px;
+  max-width: 165px;
+  text-align: center;
+  margin-top: 15px;
+
+  &:hover {
+    background-color: white;
+    color: #4272d7;
+    border: 1px solid #4272d7;
+  }
+
+  &:active {
+    transform: translateY(-3px);
+  }
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
