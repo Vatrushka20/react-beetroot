@@ -1,0 +1,37 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.side-bar {
+  height: auto;
+  width: 256px;
+  background-color: $side-bar-bg;
+  display: flex;
+  flex-direction: column;
+
+  &__user {
+    margin: 5rem auto 0;
+
+    .user-icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    .user-name {
+      @include fonts('Roboto', 300, 1rem, $primary-text);
+      text-align: center;
+      margin: 10.72px 0;
+    }
+  }
+}
+
+#dark {
+  .side-bar {
+    background-color: $dark-side-bar;
+  }
+
+  .user-name {
+    color: $base-white
+  }
+}
+

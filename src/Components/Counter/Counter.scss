@@ -1,0 +1,18 @@
+@import "src/styles/mixins";
+@import "src/styles/variables";
+
+.counter {
+  @include fonts("Roboto", 500, 16px, $base-white);
+  background-color: $primary-text;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#dark .counter {
+  background-color: $base-white;
+  color: $primary-text;
+}

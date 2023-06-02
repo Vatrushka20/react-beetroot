@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.table-header {
+  background-color: $side-bar-bg;
+  display: grid;
+  grid-template-columns: 30% 15% 10% 15% 30%;
+  align-items: center;
+  margin: 2rem 0;
+  border-radius: 5px;
+  padding: 14px 16px;
+
+  &__title {
+    @include fonts('Roboto', 500, 11px, $primary-text)
+  }
+}
+
+#dark {
+  .table-header {
+    background-color: $dark-side-bar;
+
+    &__title {
+      color: $base-white;
+    }
+  }
+}

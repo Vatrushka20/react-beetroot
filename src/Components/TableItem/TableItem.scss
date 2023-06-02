@@ -1,0 +1,62 @@
+@import "src/styles/mixins";
+@import "src/styles/variables";
+
+.table-item {
+  display: grid;
+  grid-template-columns: 30% 15% 10% 15% 30%;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid $border;
+
+  .property {
+    display: flex;
+    gap: 16px;
+
+    img {
+      width: 35px;
+      height: 35px;
+    }
+
+    .address {
+      &__street {
+        @include fonts('Roboto', 500, 16px, $primary-text);
+      }
+    }
+  }
+
+  .deposit {
+    margin-top: 12px;
+  }
+
+  .status {
+    display: flex;
+    justify-content: space-between;
+
+    .color {
+      margin-right: 40px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: red;
+    }
+  }
+}
+
+.span-title {
+  @include fonts('Roboto', 500, 10px, $secondary-text);
+  padding-top: 2px;
+}
+
+.item-title {
+  @include fonts('Roboto', 500, 13px, $primary-text);
+}
+
+#dark {
+  .address__street {
+    color: $base-white;
+  }
+
+  .item-title {
+    color: $base-white;
+  }
+}

@@ -1,0 +1,42 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.nav-item {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  padding: 15px 0;
+  border-left: 3px solid $side-bar-bg;
+
+  &:hover {
+    background-color: $side-bar-hover;
+    border-left: 3px solid $primary-text;
+
+    .nav-title {
+      color: $primary-text;
+    }
+  }
+
+  .nav-icon {
+    margin-left: 32px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .nav-title {
+    @include fonts('Roboto', 300, 15px, $side-bar-text);
+  }
+}
+
+#dark {
+  .nav-item {
+    border-left: 3px solid $dark-side-bar;
+    &:hover {
+      border-left: 3px solid $base-white;
+      .nav-title{
+        color: $base-white;
+      }
+    }
+  }
+}

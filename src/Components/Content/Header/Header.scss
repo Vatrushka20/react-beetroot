@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 48px;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+
+  .email-icon {
+    width: 27px;
+    height: 27px;
+  }
+
+  .user-icon {
+    width: 32px;
+    height: 32px;
+
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tableHeader": [
+    "PROPERTY",
+    "MOVE IN DATE",
+    "RENT",
+    "DEPOSIT",
+    "STATUS"
+  ]
+}

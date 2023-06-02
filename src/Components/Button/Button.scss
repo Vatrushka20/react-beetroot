@@ -1,0 +1,29 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.btn-wrapper {
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+
+  .button {
+    @include fonts('Roboto', 700, 10px, $base-white);
+    text-transform: uppercase;
+    width: 130px;
+    background: $btn-color;
+    border-radius: 20px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: rgba(128, 74, 216, .6) 0 0 7px;
+      background: $base-white;
+      color: #804AD8FF;
+    }
+
+    &:active {
+      transform: translateY(-3px);
+    }
+  }
+}

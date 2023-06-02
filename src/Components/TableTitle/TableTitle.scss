@@ -1,0 +1,15 @@
+@import "src/styles/mixins";
+@import "src/styles/variables";
+
+.table-title {
+  display: flex;
+  gap: 16px;
+
+  &__name {
+    @include fonts('Roboto', 500, 21px, $primary-text);
+  }
+}
+
+#dark .table-title__name {
+  color: $base-white
+}

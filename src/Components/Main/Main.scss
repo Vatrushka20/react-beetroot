@@ -1,0 +1,15 @@
+@import "src/styles/variables";
+
+.content-wrapper {
+  width: calc(100% - 256px);
+  padding: 0 64px;
+  background-color: $base-white;
+}
+
+.main {
+  display: flex;
+}
+
+#dark .content-wrapper {
+  background-color: $dark-content;
+}
