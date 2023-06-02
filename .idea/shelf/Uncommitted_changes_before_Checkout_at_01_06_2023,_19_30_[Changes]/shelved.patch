@@ -1,0 +1,18 @@
+Index: src/App.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import './App.scss';\nimport Header from \"./Components/Header/Header\";\nimport Banner from \"./Components/Banner/Banner\";\nimport Main from \"./Components/Main/Main\";\nimport {UserForm} from \"./Components/UserForm/UserForm\";\n\nfunction App() {\n\n    return (\n        <>\n            <Header />\n            <Banner />\n            <UserForm />\n            <Main />\n\n        </>\n    )\n}\nexport default App;\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.jsx b/src/App.jsx
+--- a/src/App.jsx	
++++ b/src/App.jsx	
+@@ -10,7 +10,6 @@
+         <>
+             <Header />
+             <Banner />
+-            <UserForm />
+             <Main />
+ 
+         </>
