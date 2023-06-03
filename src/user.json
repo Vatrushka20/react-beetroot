@@ -2,10 +2,10 @@
   "headerName": "EXAMPLE",
 
   "header": [
-    "About Us",
-    "Projects",
+    "Home",
+    "Blog",
     "NEWS",
-    "Contact"
+    "User"
   ],
 
   "blog": [

@@ -1,6 +1,5 @@
 import './Blog.scss';
 import BlogItem from "./BlogItem/BlogItem";
-// import User from '../../user.json';
 import {useEffect, useState} from "react";
 import axios from "axios";
 
@@ -25,9 +24,3 @@ function Blog() {
 }
 
 export default Blog;
-
-// useEffect(() => {
-//     fetch('https://jsonplaceholder.typicode.com/posts')
-//         .then(res =>res.json()
-//             .then(data => setBlogData(data)))
-// }, []);
