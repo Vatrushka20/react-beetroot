@@ -1,10 +1,9 @@
 import './ToggleMode.scss'
 
-export const ToggleMode = ({onChange, checked}, props) => {
-    const classes = "switch " + props.className;
+export const ToggleMode = ({onChange, checked}) => {
     return (
         <div className='switch-button'>
-            <label className={classes}
+            <label className='switch'
                    onChange={onChange}
                    checked={checked}
             >

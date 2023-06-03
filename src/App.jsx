@@ -16,8 +16,7 @@ function App() {
             <ThemeContext.Provider value={{theme, toggleTheme}}>
                 <div className='app' id={theme}>
                     <Main/>
-                    <ToggleMode className='switch-button'
-                                onChange={toggleTheme}
+                    <ToggleMode onChange={toggleTheme}
                                 checked={theme === 'dark'}
                     />
                 </div>
